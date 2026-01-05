@@ -1,0 +1,717 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Premier Schools Exhibition | Gurugram 2025</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div>
+      <header class="sticky-header">
+        <div class="logo">
+          <div class="sticky-header-logo">
+            <img src="public/logo.png" alt="Logo" class="sticky-logo" />
+          </div>
+        </div>
+        <nav>
+          <a href="#" class="register-btn"
+            >Register Now
+            <span class="register-icon">→</span>
+          </a>
+        </nav>
+      </header>
+
+      <header class="top-header">
+        <div class="logo">
+          <div class="top-header-logo">
+            <img src="public/logo.png" alt="Logo" class="top-logo" />
+          </div>
+        </div>
+        <nav>
+          <input type="checkbox" id="reg-toggle" class="reg-toggle" />
+
+          <label for="reg-toggle" class="reg-btn">
+            <span class="reg-left-box">
+              <span class="reg-btn-icon">↗</span>
+            </span>
+
+            <span class="reg-btn-text">Register Now</span>
+          </label>
+        </nav>
+      </header>
+    </div>
+
+    <section class="hero">
+      <div class="fake_header"></div>
+      <div class="container">
+        <div class="hero-content">
+          <div>
+            <h3 class="hero-title">Discover Gurugram’s</h3>
+            <h1 class="highlight">Top 30+ Schools</h1>
+            <p class="hero-subtitle">ALL IN ONE PLACE</p>
+          </div>
+
+          <div class="capsule-container">
+            <div class="event-capsule">
+              <div class="capsule-part">
+                <strong>Apparel House,</strong>
+                <span>Sec 44, Gurugram</span>
+              </div>
+              <div class="capsule-divider"></div>
+              <div class="capsule-part">
+                <strong>2-3 August 2025</strong>
+                <span>Sat-Sun | 10AM - 6PM</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="hero-visuals">
+          <div class="vertical-scroll">
+            <div class="group">
+              <div class="card"><img src="public/girls/col_1_1.png" /></div>
+              <div class="card focus-right">
+                <img src="public/girls/col_1_2.png" />
+              </div>
+              <div class="card focus-left">
+                <img src="public/girls/col_1_3.png" />
+              </div>
+              <div class="card"><img src="public/girls/col_1_4.png" /></div>
+            </div>
+            <div aria-hidden class="group">
+              <div class="card"><img src="public/girls/col_1_1.png" /></div>
+              <div class="card focus-right">
+                <img src="public/girls/col_1_2.png" class="focus-right" />
+              </div>
+              <div class="card focus-left">
+                <img src="public/girls/col_1_3.png" />
+              </div>
+              <div class="card"><img src="public/girls/col_1_4.png" /></div>
+            </div>
+          </div>
+
+          <div class="vertical-scroll">
+            <div class="reverse-group">
+              <div class="card focus-right">
+                <img src="public/girls/col_2_1.jpg" />
+              </div>
+              <div class="card"><img src="public/girls/col_2_2.png" /></div>
+              <div class="card focus-left">
+                <img src="public/girls/col_2_3.jpg" />
+              </div>
+              <div class="card focus-left">
+                <img src="public/girls/col_2_4.png" />
+              </div>
+            </div>
+            <div aria-hidden class="reverse-group">
+              <div class="card focus-right">
+                <img src="public/girls/col_2_1.jpg" />
+              </div>
+              <div class="card"><img src="public/girls/col_2_2.png" /></div>
+              <div class="card focus-left">
+                <img src="public/girls/col_2_3.jpg" />
+              </div>
+              <div class="card focus-left">
+                <img src="public/girls/col_2_4.png" />
+              </div>
+            </div>
+          </div>
+
+          <div class="vertical-scroll">
+            <div class="group">
+              <div class="card"><img src="public/girls/col_3_1.jpg" /></div>
+              <div class="card"><img src="public/girls/col_3_2.jpg" /></div>
+              <div class="card"><img src="public/girls/col_3_3.png" /></div>
+              <div class="card"><img src="public/girls/col_3_4.jpg" /></div>
+            </div>
+            <div aria-hidden class="group">
+              <div class="card"><img src="public/girls/col_3_1.jpg" /></div>
+              <div class="card"><img src="public/girls/col_3_2.jpg" /></div>
+              <div class="card"><img src="public/girls/col_3_3.png" /></div>
+              <div class="card"><img src="public/girls/col_3_4.jpg" /></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="hero-form-wrapper" id="register">
+          <div class="form-card">
+            <h2>Enquire Now</h2>
+            <form id="enquiryForm">
+              <div class="form-group">
+                <input type="text" placeholder="Parent's Name" required />
+              </div>
+              <div class="form-group">
+                <input type="tel" placeholder="Phone number" required />
+              </div>
+              <div class="form-group">
+                <textarea
+                  placeholder="Which grade are you looking for?"
+                  required
+                  rows="3"
+                ></textarea>
+              </div>
+
+              <div class="button-wrapper">
+                <input
+                  type="checkbox"
+                  id="submit-toggle"
+                  class="submit-toggle"
+                />
+
+                <label for="submit-toggle" class="submit-btn">
+                  <span class="submit-left-box">
+                    <span class="submit-btn-icon">↗</span>
+                  </span>
+
+                  <span class="submit-btn-text">Submit</span>
+                </label>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="achievements">
+      <div class="achieve">
+        <div class="achieve-item">
+          <div class="text-contain">
+            <div class="text-contain-inner">
+              <p class="">Trusted by</p>
+              <p class="bold-text">1 Million+</p>
+              <p>Parents</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="achieve-item">
+          <div class="text-contain">
+            <div class="text-contain-inner">
+              <p class="bold-text">22+</p>
+              <p>Years of Legacy</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="achieve-item">
+          <div class="text-contain">
+            <div class="text-contain-inner">
+              <p class="bold-text">500+</p>
+              <p>Participating Schools</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="achieve-item">
+          <div class="text-contain">
+            <div class="text-contain-inner">
+              <p class="bold-text">17 Cities</p>
+              <p>Across the Globe</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="school-container">
+      <h2 class="school-title">Participating Schools</h2>
+      <div class="horizontal-scroll">
+        <div class="card-group">
+          <div class="school-card">
+            <img src="public/schools/horrow.jpg" alt="harrow_school" />
+          </div>
+          <div class="school-card">
+            <img src="public/schools/shrewsbury.jpg" alt="shrewsbury_school" />
+          </div>
+
+          <div class="school-card">
+            <img
+              src="public/schools/woodStock_school.png"
+              alt="woodStock_school"
+            />
+          </div>
+          <div class="school-card">
+            <img src="public/schools/aga_khan.png" alt="aga_khan_school" />
+          </div>
+          <div class="school-card">
+            <img src="public/schools/aajivan.png" alt="aajivan_school" />
+          </div>
+          <div class="school-card">
+            <img src="public/schools/xyz.jpg" alt="xyz_school" />
+          </div>
+          <div class="school-card">
+            <img src="public/schools/home_tome.jpg" alt="home_tome_school" />
+          </div>
+          <div class="school-card">
+            <img src="public/schools/xyz_1.png" alt="xyz_1_school" />
+          </div>
+          <div class="school-card">
+            <img src="public/schools/manchester.png" alt="manchester_school" />
+          </div>
+          <div class="school-card">
+            <img src="public/schools/rockwoods.png" alt="rockwoods_school" />
+          </div>
+          <div class="school-card">
+            <img
+              src="public/schools/vidya_niketan.png"
+              alt="vidya_niketan_school"
+            />
+          </div>
+          <div class="school-card">
+            <img
+              src="public/schools/birla_public.png"
+              alt="birla_public_school"
+            />
+          </div>
+        </div>
+        <div aria-hidden class="card-group">
+          <div class="school-card">
+            <img src="public/schools/horrow.jpg" alt="harrow_school" />
+          </div>
+          <div class="school-card">
+            <img src="public/schools/shrewsbury.jpg" alt="shrewsbury_school" />
+          </div>
+
+          <div class="school-card">
+            <img
+              src="public/schools/woodStock_school.png"
+              alt="woodStock_school"
+            />
+          </div>
+          <div class="school-card">
+            <img src="public/schools/aga_khan.png" alt="aga_khan_school" />
+          </div>
+          <div class="school-card">
+            <img src="public/schools/aajivan.png" alt="aajivan_school" />
+          </div>
+          <div class="school-card">
+            <img src="public/schools/xyz.jpg" alt="xyz_school" />
+          </div>
+          <div class="school-card">
+            <img src="public/schools/home_tome.jpg" alt="home_tome_school" />
+          </div>
+          <div class="school-card">
+            <img src="public/schools/xyz_1.png" alt="xyz_1_school" />
+          </div>
+          <div class="school-card">
+            <img src="public/schools/manchester.png" alt="manchester_school" />
+          </div>
+          <div class="school-card">
+            <img src="public/schools/rockwoods.png" alt="rockwoods_school" />
+          </div>
+          <div class="school-card">
+            <img
+              src="public/schools/vidya_niketan.png"
+              alt="vidya_niketan_school"
+            />
+          </div>
+          <div class="school-card">
+            <img
+              src="public/schools/birla_public.png"
+              alt="birla_public_school"
+            />
+          </div>
+        </div>
+      </div>
+      <div class="horizontal-scroll">
+        <div class="reverse-card-group">
+          <div class="school-card">
+            <img src="public/schools/horrow.jpg" alt="harrow_school" />
+          </div>
+          <div class="school-card">
+            <img src="public/schools/shrewsbury.jpg" alt="shrewsbury_school" />
+          </div>
+          <div class="school-card">
+            <img
+              src="public/schools/woodStock_school.png"
+              alt="woodStock_school"
+            />
+          </div>
+          <div class="school-card">
+            <img src="public/schools/aga_khan.png" alt="aga_khan_school" />
+          </div>
+          <div class="school-card">
+            <img src="public/schools/aajivan.png" alt="aajivan_school" />
+          </div>
+          <div class="school-card">
+            <img src="public/schools/xyz.jpg" alt="xyz_school" />
+          </div>
+          <div class="school-card">
+            <img src="public/schools/home_tome.jpg" alt="home_tome_school" />
+          </div>
+          <div class="school-card">
+            <img src="public/schools/xyz_1.png" alt="xyz_1_school" />
+          </div>
+          <div class="school-card">
+            <img src="public/schools/manchester.png" alt="manchester_school" />
+          </div>
+          <div class="school-card">
+            <img src="public/schools/rockwoods.png" alt="rockwoods_school" />
+          </div>
+          <div class="school-card">
+            <img
+              src="public/schools/vidya_niketan.png"
+              alt="vidya_niketan_school"
+            />
+          </div>
+          <div class="school-card">
+            <img
+              src="public/schools/birla_public.png"
+              alt="birla_public_school"
+            />
+          </div>
+        </div>
+        <div aria-hidden class="reverse-card-group">
+          <div class="school-card">
+            <img src="public/schools/horrow.jpg" alt="harrow_school" />
+          </div>
+          <div class="school-card">
+            <img src="public/schools/shrewsbury.jpg" alt="shrewsbury_school" />
+          </div>
+          <div class="school-card">
+            <img
+              src="public/schools/woodStock_school.png"
+              alt="woodStock_school"
+            />
+          </div>
+          <div class="school-card">
+            <img src="public/schools/aga_khan.png" alt="aga_khan_school" />
+          </div>
+          <div class="school-card">
+            <img src="public/schools/aajivan.png" alt="aajivan_school" />
+          </div>
+          <div class="school-card">
+            <img src="public/schools/xyz.jpg" alt="xyz_school" />
+          </div>
+          <div class="school-card">
+            <img src="public/schools/home_tome.jpg" alt="home_tome_school" />
+          </div>
+          <div class="school-card">
+            <img src="public/schools/xyz_1.png" alt="xyz_1_school" />
+          </div>
+          <div class="school-card">
+            <img src="public/schools/manchester.png" alt="manchester_school" />
+          </div>
+          <div class="school-card">
+            <img src="public/schools/rockwoods.png" alt="rockwoods_school" />
+          </div>
+          <div class="school-card">
+            <img
+              src="public/schools/vidya_niketan.png"
+              alt="vidya_niketan_school"
+            />
+          </div>
+          <div class="school-card">
+            <img
+              src="public/schools/birla_public.png"
+              alt="birla_public_school"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="school-categories">
+      <div class="container">
+        <h2 class="school-category-title text-center">
+          Choose the School That Fits You Best
+        </h2>
+        <div class="school-category-grid">
+          <div
+            class="school-category-card"
+            style="
+              background-image: url(/public/categories/category-pre-schools-early-learning.jpg);
+            "
+          >
+            <div class="school-category-content">
+              <h3>Pre-Schools & Early Learning Centres</h3>
+              <p>
+                Nurturing foundational skills for toddlers and pre-primary
+                children.
+              </p>
+            </div>
+          </div>
+          <div
+            class="school-category-card"
+            style="
+              background-image: linear-gradient(
+                  rgba(0, 0, 0, 0.3),
+                  rgba(0, 0, 0, 0.7)
+                ),
+                url(/public/categories/category-cbse-day-schools.jpg);
+            "
+          >
+            <div class="school-category-content">
+              <h3>K-12 CBSE Day Schools</h3>
+              <p>
+                Reputed schools offering complete schooling from Kindergarten to
+                Grade 12.
+              </p>
+            </div>
+          </div>
+          <div
+            class="school-category-card"
+            style="
+              background-image: linear-gradient(
+                  rgba(0, 0, 0, 0.3),
+                  rgba(0, 0, 0, 0.7)
+                ),
+                url(public/categories/category-heritage-new-age-schools.jpg);
+            "
+          >
+            <div class="school-category-content">
+              <h3>Heritage to New-Age Schools</h3>
+              <p>
+                Time-tested schools to innovative pedagogy, tech enabled,
+                future-ready schools
+              </p>
+            </div>
+          </div>
+          <div
+            class="school-category-card"
+            style="
+              background-image: linear-gradient(
+                  rgba(0, 0, 0, 0.3),
+                  rgba(0, 0, 0, 0.7)
+                ),
+                url(public/categories/category-international-curriculum-schools.jpg);
+            "
+          >
+            <div class="school-category-content">
+              <h3>International Curriculum Schools</h3>
+              <p>
+                Offering IB, Cambridge, Finnish and other global curricula with
+                a global learning environment.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="promo-section">
+      <div class="promo-content">
+        <p class="tagline">Exciting Opportunities for Parents!</p>
+        <h1>Pre-schedule Your<br />School Appointments</h1>
+        <p class="tagline">To Avoid Rush</p>
+
+        <div class="button-cta-button">
+          <span class="button-icon-box">↗</span>
+          <span class="button-text-box">PRE-SCHEDULE NOW</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="exhibition-section">
+      <h2 class="category-title text-center">
+        What Makes This Exhibition a Must-Visit
+      </h2>
+
+      <div class="card-container">
+        <div class="horizontal-scroll">
+          <div class="card-group">
+            <div class="exhibition-bottom-card">
+              <img src="public/icons/Group.png" class="admin-icon" />
+
+              <h3>Interact Directly with School Heads</h3>
+              <p>Get answers straight from the experts</p>
+            </div>
+            <div class="exhibition-bottom-card">
+              <img src="public/icons/Curriculum.png" class="curriculum-icon" />
+              <h3>Compare Curriculum & Pedagogy</h3>
+              <p>
+                Understand the differences between CBSE, ICSE, IB, Cambridge,
+                Finnish & more
+              </p>
+            </div>
+            <div class="exhibition-bottom-card">
+              <img src="public/icons/Exclusive.png" class="exclusive-icon" />
+              <h3>Get Exclusive Fee Structures & Offers</h3>
+              <p>Access transparent information and avail offers</p>
+            </div>
+            <div class="exhibition-bottom-card">
+              <img src="public/icons/Schools.png" class="schools-icon" />
+              <h3>Explore Schools Offerings</h3>
+              <p>
+                Preview infrastructure, co-curricular, teaching methodology and
+                culture
+              </p>
+            </div>
+            <div class="exhibition-bottom-card">
+              <img src="public/icons/Admissions.png" class="admissions-icon" />
+              <h3>On-the-Spot Admissions & Counselling</h3>
+              <p>Save time with instant applications and expert guidance</p>
+            </div>
+          </div>
+          <div aria-hidden class="card-group">
+            <div class="exhibition-bottom-card">
+              <img src="public/icons/Group.png" class="admin-icon" />
+
+              <h3>Interact Directly with School Heads</h3>
+              <p>Get answers straight from the experts</p>
+            </div>
+            <div class="exhibition-bottom-card">
+              <img src="public/icons/Curriculum.png" class="curriculum-icon" />
+              <h3>Compare Curriculum & Pedagogy</h3>
+              <p>
+                Understand the differences between CBSE, ICSE, IB, Cambridge,
+                Finnish & more
+              </p>
+            </div>
+            <div class="exhibition-bottom-card">
+              <img src="public/icons/Exclusive.png" class="exclusive-icon" />
+              <h3>Get Exclusive Fee Structures & Offers</h3>
+              <p>Access transparent information and avail offers</p>
+            </div>
+            <div class="exhibition-bottom-card">
+              <img src="public/icons/Schools.png" class="schools-icon" />
+              <h3>Explore Schools Offerings</h3>
+              <p>
+                Preview infrastructure, co-curricular, teaching methodology and
+                culture
+              </p>
+            </div>
+            <div class="exhibition-bottom-card">
+              <img src="public/icons/Admissions.png" class="admissions-icon" />
+              <h3>On-the-Spot Admissions & Counselling</h3>
+              <p>Save time with instant applications and expert guidance</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="nav-button">
+      <div class="exhibition-animate">
+        <div class="nav-controls">
+          <button class="nav-btn prev">←</button>
+          <button class="nav-btn next">→</button>
+        </div>
+      </div>
+    </section>
+
+    <footer class="main-footer">
+      <div class="footer-container">
+        <div class="logo-box-footer">
+          <img src="public/logo.png" alt="Logo" class="footer-logo" />
+        </div>
+        <div class="middle">
+          <div class="location-column-1">
+            <a href="#" class="footer-icon-box">
+              <svg
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              >
+                <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z" />
+                <circle cx="12" cy="10" r="3" />
+              </svg>
+            </a>
+            <div class="footer-text">
+              <strong>Corporate Office:</strong>
+              <p>
+                Suite B-5, Ballygunge Park Tower,<br />
+                67B Ballygunge Circular Road,<br />
+                Kolkata - 700019
+              </p>
+            </div>
+          </div>
+
+          <div class="location-column-2">
+            <a href="#" class="footer-icon-box">
+              <svg
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              >
+                <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z" />
+                <circle cx="12" cy="10" r="3" />
+              </svg>
+            </a>
+
+            <div class="footer-text">
+              <strong>Ahmedabad Office:</strong>
+              <p>
+                12/AA, Swastik Chambers, Near CU<br />
+                Shah College, Ashram Road,<br />
+                Ahmedabad - 380009
+              </p>
+            </div>
+          </div>
+
+          <div class="location-column-3">
+            <a href="#" class="footer-icon-box">
+              <svg
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              >
+                <path
+                  d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"
+                />
+              </svg>
+            </a>
+            <div class="footer-text">
+              <strong>Call us on</strong>
+              <p>9674805912</p>
+              <p>9674585012</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="connect-column">
+          <strong>Follow us on</strong>
+          <div class="social-icons">
+            <a href="#" class="footer-icon-box">
+              <svg viewBox="0 0 24 24">
+                <rect x="2" y="2" width="20" height="20" rx="5" />
+                <circle cx="12" cy="12" r="4" />
+                <circle cx="18" cy="6" r="1.5" />
+              </svg>
+            </a>
+
+            <a href="#" class="footer-icon-box">
+              <svg viewBox="0 0 24 24">
+                <path
+                  d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"
+                />
+              </svg>
+            </a>
+
+            <a href="#" class="footer-icon-box">
+              <svg viewBox="0 0 24 24">
+                <path
+                  d="M22.54 6.42a2.78 2.78 0 0 0-1.94-2C18.88 4 12 4 12 4s-6.88 0-8.6.46a2.78 2.78 0 0 0-1.94 2A29 29 0 0 0 1 11.75a29 29 0 0 0 .46 5.33A2.78 2.78 0 0 0 3.4 19c1.72.46 8.6.46 8.6.46s6.88 0 8.6-.46a2.78 2.78 0 0 0 1.94-2 29 29 0 0 0 .46-5.25 29 29 0 0 0-.46-5.33z"
+                />
+                <polygon points="9.75 15.02 15.5 11.75 9.75 8.48 9.75 15.02" />
+              </svg>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="copyright-bar">
+        <h2 class="copyright-text">
+          Copyright © 2025 | All rights reserved. Premier Schools Exhibition
+        </h2>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
